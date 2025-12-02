@@ -302,10 +302,10 @@ controllerConfig:
 # objectSelector for webhook
 objectSelector:
   matchExpressions:
-  # - key: <key>
-  #   operator: <operator>
-  #   values:
-  #   - <value>
+    - key: test
+      operator: In
+      values:
+        - test
   matchLabels:
   #   key: value
 
